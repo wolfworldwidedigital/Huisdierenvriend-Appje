@@ -90,5 +90,6 @@
       "orderReceived": "Bestelling Ontvangen",
       "orderNote": "Bestellingsnotitie | Bestellingsnotities",
       "orderNotePlaceholder": "Opmerkingen over je bestelling"
-    
+    }
+  }
 }

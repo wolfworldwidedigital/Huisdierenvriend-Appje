@@ -69,15 +69,17 @@ export default defineNuxtConfig({
   // Multilingual support
   i18n: {
     locales: [
+      { code: 'nl', file: 'nl-NL.json', name: 'Nederlands nl' },
       { code: 'en', file: 'en-US.json', name: 'English 🇺🇸' },
       { code: 'de', file: 'de-DE.json', name: 'Deutsch 🇩🇪' },
       { code: 'es', file: 'es-ES.json', name: 'Español 🇪🇸' },
       { code: 'fr', file: 'fr-FR.json', name: 'Français 🇫🇷' },
       { code: 'it', file: 'it-IT.json', name: 'Italiano 🇮🇹' },
       { code: 'pt', file: 'pt-BR.json', name: 'Português 🇧🇷' },
+  
     ],
     langDir: 'locales',
-    defaultLocale: 'en',
+    defaultLocale: 'nl',
     strategy: 'no_prefix',
   },
 });
