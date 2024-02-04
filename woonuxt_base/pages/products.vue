@@ -21,7 +21,7 @@ watch(
 );
 
 useHead({
-  title: `Products`,
+  title: `Producten`,
   meta: [{ hid: 'description', name: 'description', content: 'Products' }],
 });
 </script>
@@ -39,5 +39,5 @@ useHead({
       <ProductGrid />
     </div>
   </div>
-  <NoProductsFound v-else>Could not fecth products from your store. Please check your configuration.</NoProductsFound>
+  <NoProductsFound v-else>Kon geen producten van uw winkel vinden. Controleer uw configuratie.</NoProductsFound>
 </template>

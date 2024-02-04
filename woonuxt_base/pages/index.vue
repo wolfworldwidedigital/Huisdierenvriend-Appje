@@ -4,9 +4,9 @@ const productCategories = data.value?.productCategories?.nodes || [];
 
 useSeoMeta({
   title: `Home`,
-  ogTitle: `WooNuxt`,
-  description: `This is an example of a WooNuxt store. It provides a modern, fast, and SEO friendly ecommerce store built with Nuxt and WooCommerce.`,
-  ogDescription: `This is an example of a WooNuxt store. It provides a modern, fast, and SEO friendly ecommerce store built with Nuxt and WooCommerce.`,
+  ogTitle: `Huisdierenvriend`,
+  description: `Huisdierenvriend biedt de ultieme verzorging voor je huisdier. Van innovatieve speeltjes en gezonde voeding tot comfortabele slaapplekken, onze producten zijn speciaal ontworpen om het leven van jouw trouwe viervoeter te verrijken.`,
+  ogDescription: `Huisdierenvriend biedt de ultieme verzorging voor je huisdier. Van innovatieve speeltjes en gezonde voeding tot comfortabele slaapplekken, onze producten zijn speciaal ontworpen om het leven van jouw trouwe viervoeter te verrijken.`,
   ogImage: `https://user-images.githubusercontent.com/5116925/218879668-f4c1f9fd-bef4-44b0-bc7f-e87d994aa3a1.png`,
   twitterCard: `summary_large_image`,
 });
@@ -37,31 +37,31 @@ useSeoMeta({
 
     <section class="container grid gap-4 my-24 md:grid-cols-2 lg:grid-cols-4">
       <div class="flex items-center gap-8 p-8 bg-white rounded-lg">
-        <NuxtImg src="/icons/box.svg" width="60" height="60" alt="Free Shipping" loading="lazy" />
+        <NuxtImg src="/icons/box.svg" width="60" height="60" alt="Gratis verzending" loading="lazy" />
         <div>
-          <h3 class="text-xl font-semibold">Free Shipping</h3>
-          <p class="text-sm">Free shipping on order over €50</p>
+          <h3 class="text-xl font-semibold">Gratis verzending</h3>
+          <p class="text-sm">Gratis verzending bij een bestelling van meer dan €50</p>
         </div>
       </div>
       <div class="flex items-center gap-8 p-8 bg-white rounded-lg">
-        <NuxtImg src="/icons/moneyback.svg" width="60" height="60" alt="Money Back" loading="lazy" />
+        <NuxtImg src="/icons/moneyback.svg" width="60" height="60" alt="Geld terug" loading="lazy" />
         <div>
-          <h3 class="text-xl font-semibold">Peace of Mind</h3>
-          <p class="text-sm">30 days money back guarantee</p>
+          <h3 class="text-xl font-semibold">Gemoedsrust</h3>
+          <p class="text-sm">30 dagen geld-terug-garantie</p>
         </div>
       </div>
       <div class="flex items-center gap-8 p-8 bg-white rounded-lg">
-        <NuxtImg src="/icons/secure.svg" width="60" height="60" alt="Secure Payment" loading="lazy" />
+        <NuxtImg src="/icons/secure.svg" width="60" height="60" alt="Veilige betaling" loading="lazy" />
         <div>
-          <h3 class="text-xl font-semibold">100% Payment Secure</h3>
+          <h3 class="text-xl font-semibold">100% veilige betaling</h3>
           <p class="text-sm">Your payment are safe with us.</p>
         </div>
       </div>
       <div class="flex items-center gap-8 p-8 bg-white rounded-lg">
-        <NuxtImg src="/icons/support.svg" width="60" height="60" alt="Support 24/7" loading="lazy" />
+        <NuxtImg src="/icons/support.svg" width="60" height="60" alt="Helpdesk 24/7" loading="lazy" />
         <div>
-          <h3 class="text-xl font-semibold">Support 24/7</h3>
-          <p class="text-sm">24/7 Online support</p>
+          <h3 class="text-xl font-semibold">Ondersteuning 24/7</h3>
+          <p class="text-sm">24/7 online ondersteuning</p>
         </div>
       </div>
     </section>
